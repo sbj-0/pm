@@ -34,7 +34,7 @@ pm/
 **Requirements:** Python 3.12+, pipx
 
 ```bash
-git clone https://github.com/sbj0/pm.git
+git clone https://github.com/sbj-0/pm.git
 cd pm
 pipx install .
 ```
