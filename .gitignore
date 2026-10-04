@@ -1,0 +1,19 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+.venv/
+
+# Build artifacts
+dist/
+build/
+*.egg-info
+
+# Vault data
+data/
+
+# OS clutter
+.DS_store
+Thumbs.db

@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pm_pkg"
+version = "1.0.0"
+description = "A simple CLI password manager"
+requires-python = ">=3.12"
+dependencies = ["cryptography"]
+
+[project.scripts]
+pm = "pm:main"
+
+[tool.setuptools]
+py-modules = ["pm", "vault", "generator"]
