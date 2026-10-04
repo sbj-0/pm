@@ -164,6 +164,3 @@ pm rpin
 pip install pytest
 pytest tests/test_pm.py -v
 ```
-
-## License
-MIT — see [LICENSE](LICENSE)
